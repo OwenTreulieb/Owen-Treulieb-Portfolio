@@ -1,0 +1,18 @@
+aside {
+  margin-left: 15px;
+  float: right;
+}
+
+img {
+  border-radius: 8px;
+  outline: 3px solid #2892D7;
+}
+
+p {
+  font-size: x-large;
+  line-height: 30px;
+}
+
+.contact-container {
+  text-align: center;
+}
