@@ -5,11 +5,13 @@ import {provideRouter, Routes } from "@angular/router";
 import {Projects} from './app/projects/projects';
 import {Contact} from './app/contact/contact';
 import {About} from './app/about/about';
+import {Robotics} from './app/robotics/robotics';
 
 const routes: Routes = [
   { path: '', redirectTo: '/about', pathMatch: 'full' },
   { path: 'about', component: About },
   { path: 'projects', component: Projects },
+  { path: 'robotics', component: Robotics },
   { path: 'contact', component: Contact }
 ]
 
