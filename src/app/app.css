@@ -5,7 +5,7 @@
 
 .main-container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: auto;
   padding: 20px;
   background-color: #C5C3C6;
   border-radius: 8px;
@@ -16,17 +16,17 @@
 .background-container {
   background-image: linear-gradient(45deg, #2bff88, #62CFF4, #2C67F2, #2bff88, #62CFF4, #2C67F2);
   width: 100%;
-  height: 654px;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .cover-container {
   margin: auto;
   padding-top: 20px;
+  padding-bottom: 20px;
   width: 97%;
-  height: 623px;
   background-color: #46494C;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .button-container {
