@@ -1,3 +1,23 @@
 <mat-toolbar class="nav-bar">
   <h3>Owen Treulieb</h3>
+  <div class="button-container">
+  <button matButton routerLink="/about" routerLinkActive="active">About</button>
+  <button matButton routerLink="/projects" routerLinkActive="active">Projects</button>
+  <button matButton routerLink="/robotics" routerLinkActive="active">Robotics</button>
+  <button matButton routerLink="/contact" routerLinkActive="active">Contact</button>
+  </div>
 </mat-toolbar>
+
+<div class="background-container">
+<div class="cover-container">
+  <div class="main-container">
+    <h1>My Portfolio</h1>
+    <br>
+    <router-outlet></router-outlet>
+  </div>
+</div>
+</div>
+
+<footer>
+  <p>Owen Treulieb © 2025</p>
+</footer>
