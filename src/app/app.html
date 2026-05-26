@@ -1,23 +1,17 @@
-<mat-toolbar class="nav-bar">
-  <h3>Owen Treulieb</h3>
-  <div class="button-container">
-  <button matButton routerLink="/about" routerLinkActive="active">About</button>
-  <button matButton routerLink="/projects" routerLinkActive="active">Projects</button>
-  <button matButton routerLink="/robotics" routerLinkActive="active">Robotics</button>
-  <button matButton routerLink="/contact" routerLinkActive="active">Contact</button>
-  </div>
-</mat-toolbar>
+<nav class="nav-bar">
+  <button routerLink="/about" routerLinkActive="active">About</button>
+  <button routerLink="/projects" routerLinkActive="active">Projects</button>
+  <button routerLink="/robotics" routerLinkActive="active">Robotics</button>
+  <button routerLink="/contact" routerLinkActive="active">Contact</button>
+</nav>
 
 <div class="background-container">
-<div class="cover-container">
   <div class="main-container">
-    <h1>My Portfolio</h1>
-    <br>
+    <h1 class="name">Owen Treulieb</h1>
     <router-outlet></router-outlet>
   </div>
 </div>
-</div>
 
 <footer>
-  <p>Owen Treulieb © 2025</p>
+  <p>Owen Treulieb © 2026</p>
 </footer>
