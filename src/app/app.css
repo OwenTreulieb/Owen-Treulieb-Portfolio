@@ -63,15 +63,16 @@
 }
 
 .background-container {
-  background-image: linear-gradient(45deg, #500092, #62CFF4, #2C67F2, #500092, #62CFF4, #2C67F2);
+  background-image: linear-gradient(45deg, #500092, #2C67F2, #62CFF4);
   width: 100%;
   /*padding-top: 20px;*/
   /*padding-bottom: 20px;*/
 }
 
 footer {
-  margin: auto;
-  background-color: #DCDCDD;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   /*padding: 10px 0 10px 0;*/
   text-align: center;
   font-size: large;
