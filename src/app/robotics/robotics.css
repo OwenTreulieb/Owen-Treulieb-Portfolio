@@ -12,3 +12,11 @@ p {
   font-size: x-large;
   line-height: 30px;
 }
+
+h1 {
+  margin-bottom: 1.3em;
+}
+
+.content-box {
+  width: 70%;
+}

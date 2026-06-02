@@ -1,5 +1,5 @@
 aside {
-  margin-left: 15px;
+  margin-left: 20px;
   float: right;
 }
 
@@ -11,4 +11,8 @@ img {
 p {
   font-size: x-large;
   line-height: 30px;
+}
+
+h1 {
+  margin-bottom: 1.3em;
 }
