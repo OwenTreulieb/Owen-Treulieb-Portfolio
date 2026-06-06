@@ -1,22 +1,27 @@
-aside {
-  margin-left: 15px;
-  float: right;
-}
+/*aside {*/
+/*  margin-left: 15px;*/
+/*  float: right;*/
+/*}*/
 
-img {
-  border-radius: 8px;
-  outline: 3px solid #2892D7;
-}
+/*img {*/
+/*  border-radius: 8px;*/
+/*  outline: 3px solid #2892D7;*/
+/*}*/
 
 p {
-  font-size: x-large;
-  line-height: 30px;
+
+}
+a {
+  text-decoration: none;
 }
 
 h1 {
   margin-bottom: 1.3em;
 }
 
+.content-box {
+  width: 50%;
+}
 .contact-container {
   text-align: center;
 }

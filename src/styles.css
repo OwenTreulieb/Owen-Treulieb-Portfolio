@@ -5,9 +5,28 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 h1 { margin-left: 4em }
 
+aside {
+  margin-left: 20px;
+  float: right;
+}
+
+img {
+  border-radius: 8px;
+  /*outline: 3px solid #311B8F;*/
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2),
+  -8px -8px 20px rgba(255, 255, 255, 0.1);
+}
+
+p {
+  font-size: x-large;
+  line-height: 30px;
+  margin: 0;
+}
+
 .content-box {
   width: 60%;
-  padding: 2rem;
+  padding: 1.8rem;
   margin: 2% auto;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.15);
