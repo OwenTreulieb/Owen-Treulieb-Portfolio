@@ -1,14 +1,18 @@
-aside {
-  margin-left: 15px;
-  float: right;
-}
+/*aside {*/
+/*  margin-left: 15px;*/
+/*  float: right;*/
+/*}*/
 
-img {
-  border-radius: 8px;
-  outline: 3px solid #2892D7;
-}
+/*img {*/
+/*  border-radius: 8px;*/
+/*  outline: 3px solid #2892D7;*/
+/*}*/
 
-p {
-  font-size: x-large;
-  line-height: 30px;
+/*p {*/
+/*  font-size: x-large;*/
+/*  line-height: 30px;*/
+/*}*/
+
+h1 {
+  margin-bottom: 1.3em;
 }

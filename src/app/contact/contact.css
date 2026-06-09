@@ -1,16 +1,37 @@
-aside {
-  margin-left: 15px;
-  float: right;
-}
+/*aside {*/
+/*  margin-left: 15px;*/
+/*  float: right;*/
+/*}*/
 
 img {
-  border-radius: 8px;
-  outline: 3px solid #2892D7;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  outline: 0;
 }
 
 p {
-  font-size: x-large;
-  line-height: 30px;
+
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 1.3em;
+}
+
+.content-box {
+  width: 60%;
+}
+.content-box .content-box {
+  width: 40%;
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
 }
 
 .contact-container {

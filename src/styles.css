@@ -2,3 +2,41 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1 { margin-left: 4em }
+h2 { margin-top: 0.5rem }
+
+aside {
+  margin-left: 20px;
+  float: right;
+}
+
+img {
+  border-radius: 8px;
+  /*outline: 3px solid #311B8F;*/
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2),
+  -8px -8px 20px rgba(255, 255, 255, 0.1);
+}
+
+p {
+  font-size: x-large;
+  line-height: 30px;
+  margin: 0;
+}
+
+.content-box {
+  width: 60%;
+  padding: 1.8rem;
+  margin: 2% auto;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  /*backdrop-filter: blur(65px); More Grey */
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2),
+  -8px -8px 20px rgba(255, 255, 255, 0.1);
+  /*text-align: center;*/
+  color: white;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
