@@ -3,10 +3,12 @@
 /*  float: right;*/
 /*}*/
 
-/*img {*/
-/*  border-radius: 8px;*/
-/*  outline: 3px solid #2892D7;*/
-/*}*/
+img {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  outline: 0;
+}
 
 p {
 
@@ -20,8 +22,18 @@ h1 {
 }
 
 .content-box {
-  width: 50%;
+  width: 60%;
 }
+.content-box .content-box {
+  width: 40%;
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 .contact-container {
   text-align: center;
 }
